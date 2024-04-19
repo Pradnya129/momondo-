@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Website- momondo</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!--header section start  -->
+    <header>
+       <div class="nav">
+
+   
+       <div class="logo">
+        <img
+        src="./assets/img/Momondo-Logo.wine.png"
+        alt="momondo"
+        width="150px"
+      />
+       </div>
+        
+        <ul>
+        <li><a href="javascript:void(0)" class="active">Flights </a></li>
+        <li><a href="javascript:void(0)"> Hotel </a></li>
+        <li><a href="javascript:void(0)"> Car Hire </a></li>
+        <li><a href="javascript:void(0)"> Trip Finder </a></li>
+        <li><a href="javascript:void(0)"> Inspirations </a></li>
+      </ul>
+    </div>
+      <ul>
+    
+        <li>
+          <a href="javascript:void(0)">
+            <img
+              src="./assets/img/Flag_of_the_United_States.svg"
+              width="20px"
+              style="margin-right: 3px"
+              alt=""
+            />
+            English(GBP)
+          </a>
+        </li>
+        <li>
+          <a href="javascript:void(0)" > Log in</a>
+        </li>
+      </ul>
+  
+    </header>
+    <!--header section end  -->
+
+    <!-- banner section start -->
+    <section class="banner">
+
+      <h1>"The best place to find <br />the cheapest airfares"</h1>
+      <h3>- every single time</h3>
+      <form>
+        <div class="FormSwtich">
+          <div class="FormSwitchContainer">
+            <button  class =" active"> 
+              <a href="javascript:void(0)"> 
+                <i class="fa-solid fa-plane-departure"></i>
+              <span>Flights</span> 
+            </a>
+          </button>
+            <button> <a href="javascript:void(0)">
+              <i class="fa-solid fa-hotel"></i>
+              <span>Hotels</span>
+            </a>
+          </button>
+            <button> <a href="javascript:void(0)">
+              <i class="fa-solid fa-car"></i>
+              <span>Cars</span>
+            </a>
+          </button>
+          </div>
+        
+        </div>
+        <div class="FormSearch">
+          <div>
+            <div class="location1">
+              <i
+                class="fa-solid fa-location-dot"
+                style="padding-left: 53px; padding-top: 9px;"
+              ></i>
+
+              <input
+                type="text"
+                name="origin-city"
+                id="origin-city"
+                placeholder="Enter origin city"
+              />
+            </div>
+            
+                <i
+                class="fa-solid fa-arrow-right-arrow-left arrow"
+                style="color: rgb(25, 143, 143); "
+              ></i>
+             
+            
+
+            <div class="location1">
+              <i
+                class="fa-solid fa-location-dot"
+                style="padding-left: 53px; padding-top: 9px;"
+              ></i>
+              <input
+                type="text"
+                name="destiny-city"
+                id="destiny-city"
+                placeholder="Enter destination city"
+              />
+            </div>
+
+            <input type="date" name="start-date" id="start-date" />
+            <input type="date" name="end-date" id="endt-date" />
+            <select name="passenger" id="passenger" >
+              <option value="1-passenger">1 passenger</option>
+              <option value="2-passenger">2 passenger</option>
+              <option value="3-passenger">3 passenger</option>
+              <option value="4-passenger">4 passenger</option>
+              <option value="5-passenger">5 passenger</option>
+            </select>
+          </div>
+          <div class="submitButton">
+            <button>Submit</button>
+          </div>
+          
+
+        </div>
+          <div class="feature-trip">
+            <select name="tripe-type" id="tripe-type">
+                <option value="" selected> Trip type: Return trip</option>
+                <option value="Business">Business</option>
+                <option value="Business">Business</option>
+                <option value="Business">Business</option>
+                <option value="Business">Business</option>
+            </select>
+     
+       
+            <select name="tripe-type" id="tripe-type">
+                <option value="" selected> Ticket class:Economy</option>
+                <option value="Economy">Economy</option>
+                <option value="Economy">Economy</option>  
+                <option value="Economy">Economy</option>
+                <option value="Economy">Economy</option>
+            </select>
+         <div class="checkbox1">
+          <input type="checkbox" name="direct-flight" id="flights" value="Direct-flights-only" > 
+          <span>
+            <label for="flights"> Direct flights only</label>
+          </span>
+          
+         </div>
+         <div class="checkbox2">
+           <input type="checkbox" name=" nearby-airports" id ="airports" value="Include-nearby-airports" >
+           <span>
+            <label for="airports"> Include nearby airports</label>
+          </span> 
+
+         </div>
+
+        </div>
+      </form>
+    </section>
+    <!-- banner section end -->
+
+    <!-- fun section start -->
+    <section class="fun">
+      <h3> SOME FUN WE COVERED</h3>
+      <div class="funContent">
+          <div class="funItem">
+            <i class=" fa-solid fa-person-biking custom-icon"></i>
+              <h4>5670 M</h4>
+              <p>CYLING TRACK</p>
+          </div>
+          <div class="funItem">
+            <i class="fa-solid fa-map-location custom-icon" size="400px"></i>
+            <h4>480 M</h4>
+            <p>DISTANCE COVERED</p>
+          </div>
+          <div class="funItem">
+            <i class="fa-solid fa-person-hiking custom-icon" ></i>
+            <h4>5670 M</h4>
+            <p>ALTITUDE HIKED</p>
+          </div>
+          <div class="funItem">
+            <i class="fa-solid fa-sailboat custom-icon"></i>
+            <h4>180 M</h4>
+            <p>SAILING DISTANCE</p>
+          </div>
+          <div class="funItem">
+            <i class="fa-solid fa-mountain-sun custom-icon"></i>
+            <h4>570 M</h4>
+            <p>SPENT ADVENTURE</p>
+          </div>
+          <div class="funItem">
+            <i class="fa-solid fa-shield-dog custom-icon"></i>
+            <h4>567 M</h4>
+            <p>JUNGLE DISTANCE</p>
+
+          </div>
+        </div>
+
+
+    </section>
+
+
+    <!-- fun section end -->
+     <!-- newslatter section start -->
+    <section class="newslatter">
+      <div class="newslatterContent">
+        <h3>SUBSCRIBE FOR OUR TRAVEL NEWSLATTERS</h3>
+        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus molestiae ipsa delectus hic animi quas assumenda. Dolor molestias 
+          similique doloremque!</P>
+          <input type="email" placeholder="Enter your email address....">
+          <button>SEARCH</button>
+      </div>
+
+    </section>
+     <!-- newslatter section start -->
+     <!-- destination section start -->
+    <section class="destination">
+      <h3>POPULAR DESTINATION</h3>
+      <div class="destinationContainer">
+        <div class="destinationContainerItem">
+          <img src="/assets/img/1.jpg" width="190px" height="120px" alt="">
+          <h4><span>$999</span> Rome Florence & Venice 9-Night Vocation w/As</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, beatae.
+          </p>
+        </div>
+        <div class="destinationContainerItem">
+          <img src="/assets/img/2.jpg" width="190px" height="120px" alt="">
+          <h4><span>$999</span> Rome Florence & Venice 9-Night Vocation w/As</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, beatae.
+          </p>
+        </div>
+        <div class="destinationContainerItem">
+          <img src="/assets/img/3.jpg" width="190px" height="120px" alt="">
+          <h4><span>$999</span> Rome Florence & Venice 9-Night Vocation w/As</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, beatae.
+          </p>
+        </div>
+        <div class="destinationContainerItem">
+          <img src="/assets/img/4.jpg" width="190px" height="120px" alt="">
+          <h4><span>$999</span> Rome Florence & Venice 9-Night Vocation w/As</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, beatae.
+          </p>
+        </div>
+        <div class="destinationContainerItem">
+          <img src="/assets/img/5.jpg" width="190px" height="120px" alt="">
+          <h4><span>$999</span> Rome Florence & Venice 9-Night Vocation w/As</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, beatae.
+          </p>
+        </div>
+        <div class="destinationContainerItem">
+          <img src="/assets/img/6.jpg" width="190px" height="120px" alt="">
+          <h4><span>$999</span> Rome Florence & Venice 9-Night Vocation w/As</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, beatae.
+          </p>
+        </div>
+        <div class="destinationContainerItem">
+          <img src="/assets/img/7.jpg" width="190px" height="120px" alt="">
+          <h4><span>$999</span> Rome Florence & Venice 9-Night Vocation w/As</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, beatae.
+          </p>
+        </div>
+        <div class="destinationContainerItem">
+          <img src="/assets/img/8.jpg" width="190px" height="120px" alt="">
+          <h4><span>$999</span> Rome Florence & Venice 9-Night Vocation w/As</h4>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, beatae.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+      <!-- destination section start -->
+
+      <!-- estimate section start -->
+    <section class="estimate">
+      <div class="estamateContainer">
+        <img src="./assets/img/colossem.png" width="200px" alt="">
+        <h2>GET A QUICK ESTIMATE!</h2>
+        <H4>GET A PROFFESIONAL HELP</H4>
+        <hr size="3px" width="50px" color="white" >
+        <div class="estimateForm">
+          <select name="tripe-type" id="tripe-type" >
+            <option value="" selected> Travel Purpose</option>
+            <option value="Business">Business</option>
+            <option value="Business">Business</option>
+            <option value="Business">Business</option>
+            <option value="Business">Business</option>
+        </select>
+
+        <input type="date" placeholder="Travel Date">
+        <input type="number" name="numberOfPeople" id="numberOfPeople" placeholder="Number of Peoples" min="0">
+        <input type="email" placeholder="Your Email">
+       <input type="submit" class="estimateBtn" value="Calculate here">
+        </div>
+      </div>
+
+    </section>
+       <!-- estimate section start -->
+       <section class="blog">
+        <div class="blogContainer">
+
+          <h2>LATEST BLOG</h2>
+          <P style="margin: 0px 15%;">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore, rerum. Consequatur perferendis
+             necessitatibus, consequuntur repellendus excepturi odit esse! Dolorem sapiente odio, officia minima libero quam.</P>
+           <div class="blogContainerItems">
+            <div class="blogItem">
+              <img src="/assets/img/9.jpg"width="160px" height="160px" alt="">
+              <div class="blogItemContent">
+                  <h6>Feb 01,2016</h6>
+                  <h3>10 THINGS TODO BEFORE TRAVEL</h3>
+                  <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, nulla eum ipsa, quasi dolores in exercitationem tenetur, 
+                    nobis vero qui possimus quaerat animi officia! Ipsam.</P>
+              </div>
+            </div>
+            <div class="blogItem">
+              <img src="/assets/img/10.jpg"width="160px" height="160px" alt="">
+              <div class="blogItemContent">
+                  <h6>Feb 01,2016</h6>
+                  <h3>10 THINGS TODO BEFORE TRAVEL</h3>
+                  <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Commodi, nulla eum ipsa, quasi dolores in exercitationem
+                     tenetur, nobis vero qui possimus quaerat animi officia! Ipsam.</P>
+              </div>
+            </div>
+           </div>
+          
+        </div>
+     </section>
+<!-- bottomList section start -->
+    <section class="bottomList">
+      <div class="containerList">
+        <div class="countries">
+          <h3> Top Countries</h3>
+          <ul>
+       <li><span> <i class="fa-solid fa-earth-asia" style="margin-right: 5px;"></i>Flights to </span> United States</li>
+       <li><span> <i class="fa-solid fa-earth-asia" style="margin-right: 5px;"></i>Flights to </span>United Kingdom</li>
+       <li><span><i class="fa-solid fa-earth-asia"style="margin-right: 5px;"></i>Flights to </span>Spain</li>
+       <li><span><i class="fa-solid fa-earth-asia"style="margin-right: 5px;"></i>Flights to </span>Thailand</li>
+       <li><span><i class="fa-solid fa-earth-asia"style="margin-right: 5px;"></i>Flights to </span>India</li>
+       <li><span><i class="fa-solid fa-earth-asia"style="margin-right: 5px;"></i>Flights to </span>Italy</li>
+       <li><span><i class="fa-solid fa-earth-asia"style="margin-right: 5px;"></i>Flights to </span>Germaney</li>
+       <li><span><i class="fa-solid fa-earth-asia"style="margin-right: 5px;"></i>Flights to </span>Denmark</li>
+       <li><span><i class="fa-solid fa-earth-asia"style="margin-right: 5px;"></i>Flights to </span>France</li>
+
+        </div>
+        <div class="cities">
+          <h3> Top Cities</h3>
+          <ul>
+       <li><span> <i class="fa-solid fa-earth-asia" style="margin-right: 5px;"></i>Flights to </span> United States</li>
+       <li><span> <i class="fa-solid fa-earth-asia" style="margin-right: 5px;"></i>Flights to </span>United Kingdom</li>
+       <li><span><i class="fa-solid fa-earth-asia"style="margin-right: 5px;"></i>Flights to </span>Spain</li>
+       <li><span><i class="fa-solid fa-earth-asia"style="margin-right: 5px;"></i>Flights to </span>Thailand</li>
+       <li><span><i class="fa-solid fa-earth-asia"style="margin-right: 5px;"></i>Flights to </span>India</li>
+       <li><span><i class="fa-solid fa-earth-asia"style="margin-right: 5px;"></i>Flights to </span>Italy</li>
+       <li><span><i class="fa-solid fa-earth-asia"style="margin-right: 5px;"></i>Flights to </span>Germaney</li>
+       <li><span><i class="fa-solid fa-earth-asia"style="margin-right: 5px;"></i>Flights to </span>Denmark</li>
+       <li><span><i class="fa-solid fa-earth-asia"style="margin-right: 5px;"></i>Flights to </span>France</li>
+
+        </div>
+        <div class="international">
+          <h3>International Sites</h3>
+          <div class="internationalContainer">
+            <div class="intern1">
+              <ul>
+             <li><span> <img src="/assets/img/1.png" width="15px" alt=""> </span> United States</li>
+             <li><span>  <img src="/assets/img/2.png" width="15px" alt="">  </span>United Kingdom</li>
+             <li><span> <img src="/assets/img/3.png" width="15px" alt="">  </span>Spain</li>
+             <li><span>  <img src="/assets/img/4.png" width="15px" alt="">     </span>Thailand</li>
+             <li><span> <img src="/assets/img/5.png" width="15px" alt="">     </span>India</li>
+             <li><span> <img src="/assets/img/6.png" width="15px" alt="">     </span>Italy</li>
+             <li><span>  <img src="/assets/img/1.png" width="15px" alt="">    </span>Germaney</li>
+             </ul>
+            </div>
+            <div class="intern2">
+              <ul>
+             <li><span> <img src="/assets/img/1.png" width="15px" alt=""> </span> United States</li>
+             <li><span>  <img src="/assets/img/2.png" width="15px" alt="">  </span>United Kingdom</li>
+             <li><span> <img src="/assets/img/3.png" width="15px" alt="">  </span>Spain</li>
+             <li><span>  <img src="/assets/img/4.png" width="15px" alt="">     </span>Thailand</li>
+             <li><span> <img src="/assets/img/5.png" width="15px" alt="">     </span>India</li>
+             <li><span> <img src="/assets/img/6.png" width="15px" alt="">     </span>Italy</li>
+             <li><span>  <img src="/assets/img/1.png" width="15px" alt="">    </span>Germaney</li>
+             </ul>
+            </div>
+
+          </div>
+        
+       
+
+        </div>
+      </div>
+    </section>
+    <!-- bottomList section start -->
+  <section class="footer">
+    <div class="footerContent">
+      <img src="/assets/img/images.png" width="60px" alt="">
+      <div class="footerFeature">
+        <ul>
+          <li>About Us</li>
+          <li>Jobs</li>
+          <li>Process</li>
+          <li>Affilate</li>
+          <li>Terms of Use</li>
+          <li>Privacy Policy</li>
+          <li>Cookies</li>
+          <li>Airlines</li>
+          <li>Apps</li>
+          <li>Help</li>
+        </ul>
+        <p>consectetur adipisicing elit. Vitae ipsum dolor excepturi? Voluptatum magni eos cupiditate quae autem nobis minus.</p>
+      </div>
+    
+    </div>
+    <div class="socialMediaImg">
+      <i class="fa-brands fa-twitter"  style="margin: 0px 5px;"></i>
+      <i class="fa-brands fa-facebook" style="margin: 0px 5px;"></i>
+      <i class="fa-brands fa-google"style="margin: 0px 5px;"></i>
+
+    </div>
+  </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+  </body>
+</html>
