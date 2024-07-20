@@ -437,6 +437,7 @@ select {
 }
 .footer .footerContent img {
   margin-right: 10px;
+  width: 30px;
 }
 .footer .footerContent {
   display: flex;
@@ -444,7 +445,12 @@ select {
   align-items: center;
 }
 .footer .socialMediaImg {
-  margin-right: 200px;
+  margin-right: 0px;
+}
+.footer .socialMediaImg .socialIcon{
+  width: 25px !important;
+  height: 25px;
+  margin-right: 30px !important;
 }
 /* footer section end */
 
@@ -535,6 +541,9 @@ select {
   .banner .feature-trip .checkbox1,
   .banner .feature-trip .checkbox2 {
     display: inline-block !important;
+  }
+  .footerContent img{
+    width: 30px;
   }
 }
 
@@ -731,6 +740,14 @@ select {
     transform: rotate(90deg) !important;
     margin: -3px 45%;
   }
+  .footerContent img{
+    width: 30px;
+  }
+  .footer .socialMediaImg .socialIcon{
+    width: 20px !important;
+    height: 20px;
+    margin-right: 0px !important;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -879,6 +896,9 @@ select {
   .FormSearch .arrow {
     transform: rotate(90deg) !important;
     margin: -3px 45%;
+  }
+  .footerContent img{
+    width: 30px;
   }
 }
 
@@ -1071,7 +1091,8 @@ select {
     margin-top: 20px;
   }
   .footer .footerContent img {
-    margin-right: 0px;
+    margin-right: 5px;
+    width: 30px;
   }
 }
 @media screen and (max-width: 320px) {
@@ -1258,4 +1279,8 @@ select {
   .footer .footerContent .footerFeature ul li {
     margin: 0px 5px;
   }
+  .footerContent img{
+    width: 30px;
+  }
+
 }
