@@ -159,7 +159,9 @@ select {
   height: 300px;
   width: 100%;
   color: white;
+  margin: 0px auto;
 }
+
 .fun .funContent .funItem {
   margin-top: 30px;
   background-color: black;
@@ -968,7 +970,7 @@ select {
     margin-right: 34px;
   }
   .newslatterContent button {
-    width: 275px;
+    width: 80%;
     padding: 8px 0px;
     margin-left: 4px;
     outline: none;
